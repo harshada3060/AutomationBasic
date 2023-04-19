@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="15" passed="13" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-19T09:47:16Z" name="Suite" finished-at="2023-04-19T09:47:36Z" duration-ms="19915">
+    <groups>
+    </groups>
+    <test started-at="2023-04-19T09:47:16Z" name="Test" finished-at="2023-04-19T09:47:36Z" duration-ms="19915">
+      <class name="testngexample.Actitime">
+        <test-method signature="a_openBrowserAndAppUrl()[pri:0, instance:testngexample.Actitime@402c4085]" started-at="2023-04-19T09:47:16Z" name="a_openBrowserAndAppUrl" finished-at="2023-04-19T09:47:36Z" duration-ms="19400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a_openBrowserAndAppUrl -->
+        <test-method signature="b_login()[pri:0, instance:testngexample.Actitime@402c4085]" started-at="2023-04-19T09:47:36Z" name="b_login" finished-at="2023-04-19T09:47:36Z" duration-ms="253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b_login -->
+        <test-method signature="c_createTask()[pri:0, instance:testngexample.Actitime@402c4085]" started-at="2023-04-19T09:47:36Z" name="c_createTask" finished-at="2023-04-19T09:47:36Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- c_createTask -->
+        <test-method signature="d_logoutClose()[pri:0, instance:testngexample.Actitime@402c4085]" started-at="2023-04-19T09:47:36Z" name="d_logoutClose" finished-at="2023-04-19T09:47:36Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- d_logoutClose -->
+      </class> <!-- testngexample.Actitime -->
+      <class name="testngexample.Actitime_Enabled">
+        <test-method signature="createTask()[pri:0, instance:testngexample.Actitime_Enabled@4681c175]" started-at="2023-04-19T09:47:16Z" name="createTask" finished-at="2023-04-19T09:47:16Z" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTask -->
+        <test-method signature="openBrowserAndAppURL()[pri:0, instance:testngexample.Actitime_Enabled@4681c175]" started-at="2023-04-19T09:47:16Z" name="openBrowserAndAppURL" finished-at="2023-04-19T09:47:16Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowserAndAppURL -->
+      </class> <!-- testngexample.Actitime_Enabled -->
+      <class name="testngexample.Actitime_TimeOut">
+        <test-method signature="openBrowser()[pri:0, instance:testngexample.Actitime_TimeOut@57a78e3]" started-at="2023-04-19T09:47:16Z" name="openBrowser" finished-at="2023-04-19T09:47:16Z" duration-ms="201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+      </class> <!-- testngexample.Actitime_TimeOut -->
+      <class name="testngexample.Actitime_InvocationCount">
+        <test-method signature="openBrowserAndAppUrl()[pri:0, instance:testngexample.Actitime_InvocationCount@6fa51cd4]" started-at="2023-04-19T09:47:36Z" name="openBrowserAndAppUrl" finished-at="2023-04-19T09:47:36Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowserAndAppUrl -->
+        <test-method signature="openBrowserAndAppUrl()[pri:0, instance:testngexample.Actitime_InvocationCount@6fa51cd4]" started-at="2023-04-19T09:47:36Z" name="openBrowserAndAppUrl" finished-at="2023-04-19T09:47:36Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowserAndAppUrl -->
+        <test-method signature="openBrowserAndAppUrl()[pri:0, instance:testngexample.Actitime_InvocationCount@6fa51cd4]" started-at="2023-04-19T09:47:36Z" name="openBrowserAndAppUrl" finished-at="2023-04-19T09:47:36Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowserAndAppUrl -->
+        <test-method signature="openBrowserAndAppUrl()[pri:0, instance:testngexample.Actitime_InvocationCount@6fa51cd4]" started-at="2023-04-19T09:47:36Z" name="openBrowserAndAppUrl" finished-at="2023-04-19T09:47:36Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowserAndAppUrl -->
+        <test-method signature="openBrowserAndAppUrl()[pri:0, instance:testngexample.Actitime_InvocationCount@6fa51cd4]" started-at="2023-04-19T09:47:36Z" name="openBrowserAndAppUrl" finished-at="2023-04-19T09:47:36Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowserAndAppUrl -->
+        <test-method signature="openBrowserAndAppUrl()[pri:0, instance:testngexample.Actitime_InvocationCount@6fa51cd4]" started-at="2023-04-19T09:47:36Z" name="openBrowserAndAppUrl" finished-at="2023-04-19T09:47:36Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowserAndAppUrl -->
+      </class> <!-- testngexample.Actitime_InvocationCount -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

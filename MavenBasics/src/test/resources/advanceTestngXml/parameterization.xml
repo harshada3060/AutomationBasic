@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Parameterization Test Suite">
+	<test name="Testing Parameterization">
+		<parameter name="password" value="Test@123"></parameter>
+		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="username" value="admin"></parameter>
+		<classes>
+			<class name="advancetestngex.Parameterization" />
+			<methods>
+				<include name="testCaseOne" />
+				<include name="testLoginOfVtiger" />
+			</methods>
+		</classes>
+	</test>
+</suite>

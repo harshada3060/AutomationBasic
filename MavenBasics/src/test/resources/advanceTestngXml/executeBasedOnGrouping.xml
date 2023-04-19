@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Sample Suite">
+	<test name="testing">
+		<groups>
+			<run>
+				<include name="Smoke Test"></include>
+				<exclude name="Regression"></exclude>
+			</run>
+		</groups>
+		<classes>
+			<class name="advancetestngex.GroupExample1"></class>
+		</classes>
+	</test>
+</suite>

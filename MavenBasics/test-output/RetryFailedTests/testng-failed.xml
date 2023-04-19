@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [RetryFailedTests]">
+  <listeners>
+    <listener class-name="runtimeRetryFailedTc.DemoTransformer"/>
+  </listeners>
+  <test thread-count="5" name="RetryMultiple(failed)">
+    <classes>
+      <class name="runtimeRetryFailedTc.Test001">
+        <methods>
+          <include name="Test1"/>
+          <include name="Test2"/>
+        </methods>
+      </class> <!-- runtimeRetryFailedTc.Test001 -->
+      <class name="runtimeRetryFailedTc.Test002">
+        <methods>
+          <include name="Test1"/>
+          <include name="Test3"/>
+          <include name="Test2"/>
+        </methods>
+      </class> <!-- runtimeRetryFailedTc.Test002 -->
+    </classes>
+  </test> <!-- RetryMultiple(failed) -->
+</suite> <!-- Failed suite [RetryFailedTests] -->
